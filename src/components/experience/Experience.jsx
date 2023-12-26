@@ -53,7 +53,7 @@ const Experience = () => {
 
         {events.map((event) => (
           <ExperienceItem
-            key={event.content}
+            key={event.content + event.date}
             side={event.side}
             date={event.date}
             content={event.content}

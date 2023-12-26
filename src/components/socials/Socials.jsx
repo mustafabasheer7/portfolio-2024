@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Socials = () => {
   return (
     <div className="mb-5">
-      <div className="flex items-center gap-x-5 text-3xl bg-white bg-opacity-10 w-min rounded-xl p-4">
+      <div className="flex items-center mx-auto md:mx-0 gap-x-5 text-3xl bg-white bg-opacity-10 w-min rounded-xl p-4">
         <Social link="https://github.com/mustafabasheer7">
           <FontAwesomeIcon icon={faSquareGithub} size="lg" />
         </Social>
