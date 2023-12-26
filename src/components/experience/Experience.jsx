@@ -50,7 +50,6 @@ const Experience = () => {
     <div className="flex flex-col items-center w-full py-8">
       <div className="relative">
         <div className="absolute border-l-2 border-gray-200 h-full left-1/2 transform -translate-x-1/2"></div>
-
         {events.map((event) => (
           <ExperienceItem
             key={event.content + event.date}
