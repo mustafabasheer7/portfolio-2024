@@ -1,3 +1,5 @@
+import { skillsItems } from "../../constants/constants";
+
 const Skills = () => {
   const content = [
     {
@@ -43,7 +45,7 @@ const Skills = () => {
   ];
   return (
     <div className="mb-5 w-full md:w-2/3 mx-auto">
-      {content.map((item) => (
+      {skillsItems.map((item) => (
         <div key={item.title}>
           <h3 className="text-center text-xl font-extrabold text-gray-100 my-5">
             {item.title}
