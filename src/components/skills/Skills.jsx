@@ -1,48 +1,6 @@
 import { skillsItems } from "../../constants/constants";
 
 const Skills = () => {
-  const content = [
-    {
-      title: "Languages",
-      items: ["JavaScript", "PHP", "HTML", "CSS", "SQL", "Java", "Python"],
-    },
-    {
-      title: "Frameworks",
-      items: [
-        "React",
-        "CakePHP",
-        "Tailwind CSS",
-        "Jest",
-        "Material UI",
-        "Laravel",
-        "Vue.js",
-        "PHPUnit",
-        "Bootstrap",
-        "Symfony",
-      ],
-    },
-    {
-      title: "Other",
-      items: [
-        "GitHub",
-        "React Context",
-        "Redux",
-        "MERN Stack",
-        "VS Code",
-        "Postman",
-        "Agile",
-        "Jira",
-        "Firebase",
-        "PostgreSQL",
-        "MySQL",
-        "PhpStorm",
-        "Amazon EC2",
-        "MVC",
-        "Eclipse",
-        "Linux",
-      ],
-    },
-  ];
   return (
     <div className="mb-5 w-full md:w-2/3 mx-auto">
       {skillsItems.map((item) => (
